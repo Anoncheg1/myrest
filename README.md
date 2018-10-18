@@ -29,7 +29,7 @@ v Получение требуемого проекта rest/projects/{id: [0-9
 v Получение всех проектов		rest/projects
 v Получение всех работ требуемого проекта rest/projects/{id: [0-9]*}/jobs
 v Получение всех проектов с нераспределенным бюджетом rest/projects/nerasp
-v Получение всех просроченных работ rest/jobs/{id: [0-9]*}/prosroch
+v Получение всех просроченных работ rest/jobs/prosroch
 
 1)
 curl -i -X POST -H "Content-Type: application/json" -d "{ \
